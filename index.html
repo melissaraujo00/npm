@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Correo</title>
+</head>
+<body>
+    <form action="http://localhost:3000/send-email" method="get">
+        <label for="">Destinatario:</label>
+        <input type="text" name="email" id="destinatario">
+        <br><br>
+        <label for="">Asunto:</label>
+        <input type="text" name="asunto" id="asunto">
+        <br><br>
+        <label for="">Cuerpo del mensaje:</label>
+        <input type="text" name="cuerpo" id="cuerpo">
+        <br>
+        <input type="submit" value="Enviar">
+    </form>
+</body>
+</html>
