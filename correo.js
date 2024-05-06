@@ -10,7 +10,7 @@ export default class Correo {
       host: "smtp.gmail.com",
       auth: {
         user: "daliarivas11@gmail.com",
-        pass: "mnnb nnva jcif kwke",
+        pass: "contraseña",
       },
     });
   }
